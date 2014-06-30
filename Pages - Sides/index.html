@@ -13,7 +13,7 @@
         <div class="bar-main">
             <div class="bar-left">
                 <img src="Images/logo.png" alt="Intelfinity"/>
-                Intelfinity
+                <intelfinity>Intelfinity</intelfinity>
             </div>
             <div class="bar-right">
                 <ul>
@@ -33,7 +33,7 @@
   	    	    <img src="Images/Slider2.png" />
   	    		</li>
   	    		<li>
-  	    	    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    	    <img src="Images/Slider3.png" />
   	    		</li>
           </ul>
         </div>
@@ -42,10 +42,78 @@
             <div id="servicespanel">
                 <title>Services</title>
                 <hr>
+                <div class="tabs">
+                   <div class="tab">
+                       <input type="radio" id="tab-1" name="tab-group-1" checked>
+                       <label for="tab-1">Web Development</label>
+                       
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                   <div class="tab">
+                       <input type="radio" id="tab-2" name="tab-group-1">
+                       <label for="tab-2">Computer Support & Building</label>
+                       
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                    <div class="tab">
+                       <input type="radio" id="tab-3" name="tab-group-1">
+                       <label for="tab-3">Cloud Services</label>
+                     
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                </div>
             </div>
             <div id="portfoliopanel">
                 <title>Projects</title>
                 <hr>
+                <div class="tabs">
+                   <div class="tab">
+                       <input type="radio" id="projtab-1" name="tab-group-2" checked>
+                       <label for="projtab-1" value="web">Web</label>
+                       
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                   <div class="tab">
+                       <input type="radio" id="projtab-2" name="tab-group-2">
+                       <label for="projtab-2" value="app">Apps</label>
+                       
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                    <div class="tab">
+                       <input type="radio" id="projtab-3" name="tab-group-2">
+                       <label for="projtab-3" value="hardware" >Hardware</label>
+                     
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                    <div class="tab">
+                       <input type="radio" id="projtab-4" name="tab-group-2">
+                       <label for="projtab-4" value="software">Software</label>
+                     
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                    <div class="tab">
+                       <input type="radio" id="projtab-5" name="tab-group-2">
+                       <label for="projtab-5" value="papers">Papers</label>
+                     
+                       <div class="content">
+                           stuff
+                       </div> 
+                   </div>
+                </div>
             </div>
         </div>
         <div id="footer">
@@ -54,29 +122,38 @@
                     <td><heading>Projects</heading></td>
                     <td><heading>Our Summary</heading></td>
                     <td><heading>Site Map</heading></td>
-                    <td rowspan="6">4</td>
+                    <td rowspan="6">
+                        <div id="DataBlock">
+                            <intelfinity>Intelfinity</intelfinity><br/>
+                            the tech way!
+                            <br><p>Based in India. Services across the world.</p>
+                            <ul>
+                                <li>Website & Software Design</li>
+                                <li>Computer Support, Repair & Building</li>
+                                <li>Photography</li>
+                                <li>Cloud Services</li>
+                            </ul>                  
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                 <td colspan="3"></td>
                 </tr>
                 <tr>
-                    <td>Rise of Virtualization: Paper</td>
-                    <td>2</td>
+                    <td>Rise of Virtualization <tag data-filter="paper">Paper</tag></td>
+                    <td rowspan="5" style="padding-right: 3%;"><p>Intelfinity is a simple technology oriented company looking at ways to create meaningful and disruptive projects and products. May it be a simple website for a client or creating an app for upcoming startups. For us programming is a passion and putting it hand in hand with customer validation is the perfect solution.</p><br><heading>Coming Soon:</heading></td>
                     <td> - Project Tags</td>
                 </tr>
                 <tr>
-                    <td>Coding Visual for Kids: Ongoing</td>
-                    <td>2</td>
+                    <td>Coding Visual for Kids <tag data-filter="software">Ongoing</tag></td>
                     <td> - About Us</td>
                 </tr>
                 <tr>
-                    <td>FLC: Website Redesign</td>
-                    <td>2</td>
+                    <td>FLC <tag data-filter="web">Website</tag></td>
                     <td> - Social Media</td>
                 </tr>
                 <tr>
-                    <td><a href="https://github.com/mahirk" class="button icon approve" target="_mkgithub">View me on GitHub</a></td>
-                    <td>2</td>
+                    <td><a href="https://github.com/mahirk" class="button icon" target="_mkgithub">View me on GitHub</a></td>
                     <td> - Contact Details </td>
                 </tr>
             </table>
