@@ -348,6 +348,10 @@ tag[data-filter = "software"] {
     background-color: #DF0101;
 }
 
+tag[data-filter = "fp"] {
+    background-color: #333;
+}
+
 /***************************************************
 Buttons  
 ***************************************************/
