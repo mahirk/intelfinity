@@ -2,7 +2,6 @@ body {
     width: 99%;
     background-image: url('../Images/crossword.png');
     font-family: "trebuchet ms", sans-serif, calibri;
-    
     overflow-x:hidden;
 }
 
@@ -71,6 +70,7 @@ intelfinity {
 Div Blocks 
 **********************************************/
 
+
 #detialspanel{
     height: auto;
 }
@@ -111,8 +111,8 @@ box{
 }
 
 #about {
-    width: 90%;
-    padding: 30px;
+    width: 85%;
+    padding: 20px 30px 10px 30px;
 }
 
 #about hr {
@@ -191,7 +191,8 @@ hr{
     padding-left: 5px;
 }
 
-#projects {
+#projects,
+#contact{
     width: 90%;
     margin: 15px 0 60px 4%;
 }
@@ -205,6 +206,7 @@ box {
     display:inline-block;
     width:24%;
     font-size: 13px;
+    vertical-align:top;
 }
 
 box img{
@@ -237,6 +239,13 @@ box div#repdets{
 box p{
     top: 10px;
 }
+#address heading {
+    font-size: 11pt;
+}
+#contactdetails{
+    text-align:left;
+    padding: 10px;
+}
 /**************************************************
 Footer 
 ***************************************************/
@@ -265,21 +274,21 @@ Footer
     -webkit-border-radius:5px ;
 }
 
-#footer heading {
+#footer heading{
     font-family: 'Raleway', sans-serif;
     font-size: 10pt;
     line-height: 1em;
     padding: 0 0 30px 0;
 }
 
-#footer heading:after {
+#footer heading:after{
     content: "";
     width: 40%;
     height: 1px;
     display: inline-block;
     background-color: #444651;
     position: relative;
-    vertical-align: bottom;
+    vertical-align:bottom;
     left: 20px;
     bottom: 10px;
 }
@@ -315,6 +324,53 @@ td {
     padding: 5px;
 }
 
+/***********************************************
+Tables
+************************************************/
+label {
+    display: block;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    font-family:'Raleway', calibri;
+    font-size: 11pt;
+}
+
+#forms {
+    padding: 30px;
+}
+input[type="text"]   {
+    width:50%;
+    display:block;
+    border: 1px solid #999;
+    height: 35px;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+}
+
+input:not([type="text"]) {
+    width:20%;
+    font-size: 9pt;
+    display:inline-block;
+    height: 35px;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+}
+
+.message {
+    width:100%;
+    display:block;
+    border: 1px solid #999;
+    height: 200px;
+    -webkit-border-radius: 4px;
+}
+textarea:focus, input:focus {
+    border: 1px solid #09C;
+    -webkit-border-radius: 4px;
+}
+#forms td {
+    width: 10%;
+    vertical-align:top;
+}
 /*************************************************
 Tags
 *************************************************/
