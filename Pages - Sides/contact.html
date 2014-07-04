@@ -32,9 +32,11 @@
         <div id="contact">
             <div class="fourrow" id="address">
                 <box style="width: 68%; margin-right: 6%;">
-                    <form action = "post.php" method = "post" name="uploadData" id="forms">
+                    <form action = "contact.php" method = "post" name="ContactUs" id="forms" onsubmit="return check(ContactUs)">
                         <label>Name:*</label>
-                        <input type="text" name="cf_name1" required>
+                        <input type="text" name="cf_name" required>
+                        <label>Email:*</label>
+                        <input type="text" name="cf_email" required>
                         <label>Topic:*</label>
                         <input type="text" name="cf_topic" required>
                         <label>Details:*</label>
@@ -95,7 +97,7 @@
                 </tr>
                 <tr>
                     <td><a href="https://github.com/mahirk" class="button icon" target="_mkgithub">View me on GitHub</a></td>
-                    <td> - Contact Details </td>
+                    <td> - <a href="contact.html">Contact Details </a></td>
                 </tr>
             </table>
         </div>
@@ -111,6 +113,8 @@
           });
         });
         </script>
+    
+        <script src="formcheck.js"></script>
         <!--script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

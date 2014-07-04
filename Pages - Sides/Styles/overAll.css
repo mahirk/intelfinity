@@ -384,6 +384,10 @@ tag {
     width: auto;
 }
 
+#main tag{
+    cursor:pointer;
+}
+
 tag[data-filter = "paper"] {
     background-color: #31B404;
 }
