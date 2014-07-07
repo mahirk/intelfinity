@@ -5,7 +5,7 @@ $field_message = $_POST['cf_message'];
 $field_topic = $_POST['cf_topic'];
 
 $mail_to = 'mahirk@intelfinity.com';
-$subject = 'Message from'.$field_topic;
+$subject = 'Suject: '.$field_topic;
 
 $body_message = 'From: '.$field_firstname."\n";
 $body_message .= 'E-mail: '.$field_email."\n\n\n";

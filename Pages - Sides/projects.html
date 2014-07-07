@@ -1,8 +1,7 @@
 <html>
     <head>
         <title>Intelfinity :: Projects</title>
-         <link rel="stylesheet" href="Styles/overAll.css">
-        
+        <link rel="stylesheet" href="Styles/overAll.css">
         <link rel="shortcut icon" href="Images/logo-20x20.png">
         <link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
         <link href="http://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet" type="text/css">
@@ -26,77 +25,79 @@
         </div>
         <div id="about"><heading>Projects</heading><hr></div>
         <div id="projects">
-            <tag data-filter="web">Website</tag>
-            <tag data-filter="app">App</tag>
-            <tag data-filter="software">Software</tag>
-            <tag data-filter="hardware">Hardware</tag>
-            <tag data-filter="paper">Papers</tag>
-            <tag data-filter="fp">Founders Project</tag>
+            <span id="main">
+                <tag data-filter="reset">&cap;</tag>
+                <tag data-filter="web">Website</tag>
+                <tag data-filter="app">App</tag>
+                <tag data-filter="software">Software</tag>
+                <tag data-filter="hardware">Hardware</tag>
+                <tag data-filter="paper">Papers</tag>
+                <tag data-filter="fp">Founders Project</tag>
+            </span>
             <a href="https://github.com/mahirk" class="button icon" style="float:right;" target="_mkgithub">View me on GitHub</a>
             <br>
-            <div class="fourrow" id="row1">
-                <box>
-                    <img src="Images/autix.png">
-                    <repo>Autix</repo><tag data-filter="app">App</tag><tag data-filter="fp">FP</tag><hr>
-                    <p>AuTix is a next generation promotional marketing app that encourages new customers to participate in a GPS based treasure hunt to find prizes. This app will provide value to companies allowing them to track user data about their most dynamic demographic.</p>
+            <div class="fourrow" id="projlist">
+                <box id = "autix" data-filter="appfp">
+                    <img name="autix" src="Images/autix.png">
+                    <repo name="autix">Autix</repo><tag name="autix" data-filter="app">App</tag><tag name="autix" data-filter="fp">FP</tag><hr>
+                    <p name="autix">AuTix is a next generation promotional marketing app that encourages new customers to participate in a GPS based treasure hunt to find prizes. This app will provide value to companies allowing them to track user data about their most dynamic demographic.</p>
                 </box>
-                <box>
-                    <img src="Images/FLC.png">
-                    <repo>FLC</repo><tag data-filter="web">Web</tag><hr>
-                    <p>FLC is a linen company based in India. They provide hotel linen to customers around the world. We had the chance to revamp their website last year, with all the specification given by their design department and the production by us. Clients themselves love the new designs. </p>
+                <box id = "flc" data-filter="web">
+                    <img name="flc" src="Images/FLC.png">
+                    <repo name="flc">FLC</repo><tag name="flc" data-filter="web">Web</tag><hr>
+                    <p name="flc">FLC is a linen company based in India. They provide hotel linen to customers around the world. We had the chance to revamp their website last year, with all the specification given by their design department and the production by us. Clients themselves love the new designs. </p>
                 </box>
-                <box>
-                    <img src="Images/rise.jpg">
-                    <repo>Rise of Virtualisation</repo><tag data-filter="paper">Paper</tag><hr>
-                    <p>Commenced a study as part of IB EE to find out how the introduction of virtualization in industries and schools can benefit, listing various methods to tackle data security, integrity and reliability issues. Concluded Postively.</p>
+                <box id = "rise" data-filter="paper">
+                    <img name="rise" src="Images/rise.jpg">
+                    <repo name="rise">Rise of Virtualisation</repo><tag name="rise" data-filter="paper">Paper</tag><hr>
+                    <p name="rise">Commenced a study as part of IB EE to find out how the introduction of virtualization in industries and schools can benefit, listing various methods to tackle data security, integrity and reliability issues. Concluded Postively.</p>
                 </box>
-                <box>
-                    <img src="Images/pathify.jpg">
-                    <repo>Pathify</repo><tag data-filter="app">App</tag><tag data-filter="web">Web</tag><tag data-filter="fp">FP</tag><hr>
-                    <p>Pathify is a new way to supplement traditional advising, to help students take control over their higher education. Based on carefully selected interest categories, Pathify can suggest up to 3 majors that the student can look into, and offer all information they might need them</p>
+                <box id = "pathify" data-filter="webappfp">
+                    <img name="pathify" src="Images/pathify.jpg">
+                    <repo name="pathify">Pathify</repo><tag name="pathify" data-filter="app">App</tag><tag name="pathify" data-filter="web">Web</tag><tag data-filter="fp" name="pathify">FP</tag><hr>
+                    <p name="pathify">Pathify is a new way to supplement traditional advising, to help students take control over their higher education. Based on carefully selected interest categories, Pathify can suggest up to 3 majors that the student can look into, and offer all information they might need them</p>
                 </box>
-                <box>
-                    <img src="Images/ic_launcher.png">
-                    <repo>CatLyft</repo><tag data-filter="app">App</tag><tag data-filter="fp">FP</tag><hr>
-                    <p>An app which can be used to rent cats in the area i.e. Lyft for Cats (Learning Project for CodeDay 2014) (part of a project worked on a Hackathon)</p>
+                <box id = "catlyft" data-filter="appfp">
+                    <img name="catlyft" src="Images/ic_launcher.png">
+                    <repo name="catlyft">CatLyft</repo><tag name="catlyft" data-filter="app">App</tag><tag name="catlyft"data-filter="fp">FP</tag><hr>
+                    <p name="catlyft">An app which can be used to rent cats in the area i.e. Lyft for Cats (Learning Project for CodeDay 2014) (part of a project worked on a Hackathon)</p>
                 </box>
-                <box>
-                    <img>
-                    <repo>Coding for Kids</repo><tag data-filter="software">Software</tag><hr>
-                    <p>Simple program that can be used to help children create programs through a flowchart mechanism such as Visio, so they learn how to code and structure early</p>
+                <box id = "c4k" data-filter="software">
+                    <img name="c4k">
+                    <repo name="c4k">Coding for Kids</repo><tag name="c4k" data-filter="software">Software</tag><hr>
+                    <p name="c4k">Simple program that can be used to help children create programs through a flowchart mechanism such as Visio, so they learn how to code and structure early</p>
                 </box>
-                <box>
-                    <img src="Images/Chowdown.png">
-                    <repo>ChowDown</repo><tag data-filter="app">App</tag><tag data-filter="web">Web</tag><tag data-filter="fp">FP</tag><hr>
-                    <p>Worried that you may run out of money on your card soon? Need to make sure you have enough towards the end of the quarter? Use us (part of a project worked on a Hackathon)</p>
+                <box id = "chowdown" data-filter="appwebfp">
+                    <img name="chowdown" src="Images/Chowdown.png">
+                    <repo name="chowdown">ChowDown</repo><tag name="chowdown" data-filter="app">App</tag><tag name="chowdown"data-filter="web">Web</tag><tag name="chowdown" data-filter="fp">FP</tag><hr>
+                    <p name="chowdown">Worried that you may run out of money on your card soon? Need to make sure you have enough towards the end of the quarter? Use us (part of a project worked on a Hackathon)</p>
                 </box>
-                <box>
-                    <img src="Images/SUW.png">
-                    <repo>Startup UW</repo><tag data-filter="app">Web</tag><hr>
-                    <p>Currently maintain the design and content of the website for the RSO StartupUW. Responsible for creating new systems to make communication and memberships easier and quicker.</p>
+                <box id = "suw" data-filter="web">
+                    <img name="suw" src="Images/SUW.png">
+                    <repo name="suw">Startup UW</repo><tag name="suw" data-filter="web">Web</tag><hr>
+                    <p name="suw">Currently maintain the design and content of the website for the RSO StartupUW. Responsible for creating new systems to make communication and memberships easier and quicker.</p>
                 </box>
-                <box>
+                <box id = "otg" data-filter="hardware">
                     <img src="Images/OTG.jpg">
                     <repo>USB OTG</repo><tag data-filter="hardware">Hardware</tag><hr>
                     <p>A simple yet low cost device which you can simply connect to your phone (usually Android or other open source systems) and use to link other USB powered devices. </p>
                 </box>
-                <box>
-                    <img src="Images/abmun.png">
-                    <repo>ABWA MUN</repo><tag data-filter="web">Web</tag><hr>
-                    <p>Handled the second revamp of the ABWA MUN website. Used the WordPress with HTML and JS to create interactive online forms and tables for the participants. (First: Rushabh Mehta)</p>
+                <box id = "amun" data-filter="web">
+                    <img name="amun" src="Images/abmun.png">
+                    <repo name="amun">ABWA MUN</repo><tag name="amun" data-filter="web">Web</tag><hr>
+                    <p name="amun">Handled the second revamp of the ABWA MUN website. Used the WordPress with HTML and JS to create interactive online forms and tables for the participants. (First: Rushabh Mehta)</p>
                 </box>
-                <box>
-                    <img src="Images/AAA.png">
-                    <repo>ABWA Alumni Association</repo><tag data-filter="software">Software</tag><hr>
-                    <p>Created and restored the website for the ABWA Alumni Association. The website is currently under another revamp to add additional features(with Rushabh Mehta)</p>
+                <box id = "aaa" data-filter="web">
+                    <img name="aaa" src="Images/AAA.png">
+                    <repo name="aaa">ABWA Alumni Association</repo><tag name="aaa" data-filter="web">Web</tag><hr>
+                    <p name="aaa">Created and restored the website for the ABWA Alumni Association. The website is currently under another revamp to add additional features(with Rushabh Mehta)</p>
                 </box>
-                <box>
-                    <img src="Images/interaa.png">
-                    <repo>Interaa</repo><tag data-filter="web">Web</tag><hr>
-                    <p>Sophisticated Solutions. Outstanding Results. <br>As the first project, handled the revamp of the website for Interaa, a financial advisory and IT company based out of Mumbai India.</p>
+                <box id = "interaa" data-filter="web">
+                    <img name="interaa" src="Images/interaa.png">
+                    <repo name="interaa">Interaa</repo><tag name="interaa" data-filter="web">Web</tag><hr>
+                    <p name="interaa">Sophisticated Solutions. Outstanding Results. <br>As the first project, handled the revamp of the website for Interaa, a financial advisory and IT company based out of Mumbai India.</p>
                 </box>
             </div>
-        </div>
         </div>
         
          <div id="footer">
@@ -137,14 +138,19 @@
                 </tr>
                 <tr>
                     <td><a href="https://github.com/mahirk" class="button icon" target="_mkgithub">View me on GitHub</a></td>
-                    <td> - Contact Details </td>
+                    <td> - <a href="contact.html">Contact Details </a> </td>
                 </tr>
             </table>
         </div>
         
         <!--JQuery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+        <script>window.jQuery || document.write('<script src="Scripts/jquery.min.js">\x3C/script>')</script>
+        <script src="Scripts/filters.js"></script>
+        <script src="Scripts/redirect.js"></script>
+        <script>
+            
+        </script>
         <!--script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
