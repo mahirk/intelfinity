@@ -1,3 +1,12 @@
+/************************************************
+
+Copyright 2014 Intelfinity: Website Service Section 
+
+Developer: Mahir Kothary GH: (@mahirk)
+
+MIT License
+
+************************************************/
 body {
     width: 99%;
     background-image: url('../Images/crossword.png');
@@ -273,6 +282,8 @@ Footer
     background-size: cover;
     text-align: center;
     -webkit-border-radius:5px ;
+    -moz-border-radius: 5px; 
+    -o-border-radius: 5px;
 }
 
 #footer heading{
@@ -346,6 +357,8 @@ input[type="text"]   {
     height: 35px;
     padding: 10px;
     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;
 }
 
 input:not([type="text"]) {
@@ -355,6 +368,8 @@ input:not([type="text"]) {
     height: 35px;
     padding: 10px;
     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;    
 }
 
 .message {
@@ -363,10 +378,14 @@ input:not([type="text"]) {
     border: 1px solid #999;
     height: 200px;
     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;
 }
 textarea:focus, input:focus {
     border: 1px solid #09C;
     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;
 }
 #forms td {
     width: 10%;
@@ -379,6 +398,8 @@ Tags
 tag {
     display: inline-block;
     -webkit-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;
     padding: 4px 7px 4px 7px;
     margin-left: 8px;
     color: #fff;
@@ -519,6 +540,8 @@ Tabs
     left: 1px;
     top: -10px;
     -webkit-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -o-border-radius: 4px;
 }
 .tab [type=radio] {
     display: none;   
@@ -542,6 +565,8 @@ Tabs
     padding-right: 50px;
     list-style-type:none;
     -webkit-padding-start: 0;
+    -moz-padding-start: 0px; 
+    -o-padding-start: 0px;
     background: white;
 }
 .content li {
@@ -552,6 +577,8 @@ Tabs
     border: 1px solid #333;
     margin: 5px;
     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -o-border-radius: 5px;
 }
 
 ol[name="pre"] li:before {
